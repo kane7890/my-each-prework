@@ -4,7 +4,7 @@ def my_each (collecshun)
   if clength > 0 
   while i < collecshun.length 
      yield(collecshun[i])
-     i++
+     i += 1
     end
   end
   # code here
