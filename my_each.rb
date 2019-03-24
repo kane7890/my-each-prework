@@ -1,4 +1,7 @@
-def my_each (set)
-  # put argument(s) here
+def my_each (collecshun)
+  i=0
+  while i < collecshun.length 
+     yield(collecshun[i])
+  end
   # code here
 end
